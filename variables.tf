@@ -1,7 +1,7 @@
 variable base_domain {}
 
 variable "aws_s3_bucket_base" {
-  value = "klicker"
+  default = "klicker"
 }
 
 variable "aws_route53_zone" {}
